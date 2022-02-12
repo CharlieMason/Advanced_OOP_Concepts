@@ -12,7 +12,7 @@ files:
       offset: 243
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: public Shape(String name){this.setName(name);}
   text: |
     public class Shape {
@@ -53,7 +53,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 1102
+    length: 1076
     placeholder_text: |-
       /* TODO : Complete the Square class.
        Add variables if you need.
@@ -64,7 +64,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |
       public class Square extends Shape{
           double side;
@@ -155,5 +155,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 12 Feb 2022 06:47:52 UTC
 record: -1

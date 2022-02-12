@@ -4,6 +4,7 @@
 intelliJ will be helpful if you do).*/
 public class Square extends Shape{
     private double length;
+
     public Square(double length, String name){
         super(name);
         this.length=length;
@@ -29,15 +30,15 @@ public class Square extends Shape{
     }
 
     @Override
-    public boolean chkequals(Object ob){
-        if (ob == this) {
+    public boolean equals(Object ob){
+        if (ob == this)
            return (true);
-        }
-        if (!(ob instanceof Square)){
+
+        if (!(ob instanceof Square))
             return (false);
-            Square ob = (Square) ob;
-            return (ob.length == this.length && ob.name.equals(this.name));
-        }
+            Square s = (Square) ob;
+            return (s.length == this.length && s.name.equals(this.name));
+
     }
 
     @Override
